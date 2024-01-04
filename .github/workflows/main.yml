@@ -2,7 +2,7 @@ name: Simple workflow
 
 on: [push]
 
-job:
+jobs:
   job1:
     runs-on: ubuntu-latest
 
