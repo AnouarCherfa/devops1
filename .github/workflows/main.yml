@@ -21,7 +21,7 @@ jobs:
 
       - name: Train Model
         run: |
-          python bcancer.py
+          python cancer.py
 
       - name: Save Model
         uses: actions/upload-artifact@v2
