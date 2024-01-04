@@ -54,4 +54,4 @@ jobs:
 
       - name: Test Model
         run: |
-          python test.py
+          python fichierTest.py
