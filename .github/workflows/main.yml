@@ -10,8 +10,7 @@ jobs:
         run: echo "Execution job 1"
 
   job2:
-    needs: job1
-    runs-on: job1
+    runs-on: job2
     steps:
       - name: Step 1
         run: echo "Execution job 2"
